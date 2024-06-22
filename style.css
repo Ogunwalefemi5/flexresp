@@ -33,6 +33,7 @@ body {
 .container {
   width: 1440rem;
   display: flex;
+  /* justify-content: center; */
   flex-direction: column;
   align-items: center;
   font-size: 16rem;
@@ -107,7 +108,7 @@ body {
 /* //////////////////////////////////////// */
 /* future section */
 /* //////////////////////////////////////// */
-.section-future {
+.future-container {
   display: flex;
   width: 1280rem;
 
@@ -135,8 +136,8 @@ body {
   font-size: 48rem;
 }
 
-.future-text p {
-  /* font-size: 16rem; */
+.flex {
+  color: #000;
 }
 
 /* //////////////////////////////////////// */

@@ -1,4 +1,5 @@
 @media (max-width:900px) {
+  /* body {} */
 
   /* //////////////////////////////////////// */
   /* container */
@@ -55,7 +56,7 @@
   /* future section */
   /* //////////////////////////////////////// */
 
-  .section-future {
+  .future-container {
     width: 700rem;
     margin-bottom: 60rem;
   }
@@ -66,6 +67,7 @@
 
   .future-img img {
     width: 200rem;
+    /* top: 100rem; */
   }
 
   .future-text {
@@ -116,10 +118,6 @@
 
 
 @media (max-width:400px) {
-  body {
-    font-size: 16rem;
-  }
-
 
   /* //////////////////////////////////////// */
   /* container */
@@ -160,12 +158,12 @@
   /* //////////////////////////////////////// */
 
   .section-hero {
-    width: 375px;
+    width: 100vw;
     height: 748rem;
-    background-position: -425rem -30rem;
-    background-position-x: -704rem;
+    /* background-position: -300rem 800rem; */
+    background-position-x: -674rem;
     background-position-y: -20rem;
-    /* background-size: 270rem 700rem; */
+    /* background-size: 200rem; */
     background-size: cover;
   }
 
@@ -180,17 +178,19 @@
 
   .rent-property h3 {
     font-size: 40rem;
+    line-height: 46px;
   }
 
   .rent-property p {
     font-size: 16rem;
+    line-height: 20px;
   }
 
   /* //////////////////////////////////////// */
   /* future section */
   /* //////////////////////////////////////// */
 
-  .section-future {
+  .future-container {
     width: 375rem;
     flex-direction: column;
     /* justify-content: center; */
@@ -223,10 +223,12 @@
 
   .future-text h3 {
     font-size: 28rem;
+    line-height: 36px;
   }
 
   .future-text p {
     font-size: 16rem;
+    line-height: 20px;
   }
 
 
@@ -247,11 +249,14 @@
     font-size: 30rem;
     text-align: center;
     margin-bottom: 16rem;
+    line-height: 36px;
+
   }
 
   .feature-text p {
     font-size: 16px;
     text-align: center;
+    line-height: 20px;
   }
 
   .feature-cards {
@@ -269,8 +274,13 @@
     border-radius: 30rem;
   }
 
+  .feature-card h3 {
+    line-height: 24px;
+  }
+
   .feature-card p {
     font-size: 14rem;
+    line-height: 18px;
   }
 
   .icons {
